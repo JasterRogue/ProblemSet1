@@ -2,9 +2,14 @@ import javax.swing.*;
 import java.awt.Font;
 
 public class Cubed {
-    public static void main(String[] args)
+    /*public static void main(String[] args)
     {
-        double number, cubedNumber;
+       cubeCalculator();
+    }*/
+
+    public static void cubeCalculator()
+    {
+        double cubedNumber, number;
 
         JTextArea textArea = new JTextArea(10,30);
         Font textAreaFont = new Font("monospaced",Font.PLAIN,12);
@@ -17,6 +22,5 @@ public class Cubed {
         }
 
         JOptionPane.showMessageDialog(null,textArea);
-
     }
 }
